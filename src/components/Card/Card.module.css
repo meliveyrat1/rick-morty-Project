@@ -1,0 +1,52 @@
+.contenedor {
+    
+    background-color: rgba(14, 13, 13, 0.877);
+    color: white;
+    width: 20%;
+    height: 30%;
+    margin-top: 5%;
+    gap: 20%;
+    border-radius: 5px;
+    border: 3px solid rgba(138, 245, 88, 0.911);
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+.contenedor:hover {
+    color: black;
+    background:  rgba(138, 245, 88, 0.692);
+    box-shadow: 0 0 10px  rgba(138, 245, 88, 0.692), 0 0 40px  rgba(138, 245, 88, 0.692), 0 0 80px  rgba(138, 245, 88, 0.692) ;
+    transition-delay: 0.4s;
+  } 
+
+.img {
+    width: 90%;
+    height: 100%;
+    border: 1px solid rgba(138, 245, 88, 0.911);
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+  
+}
+
+.name {
+    background-color: rgba(236, 149, 98, 0.897);
+    color: black;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 13px;
+    
+}
+
+.btn{
+    display: flex;
+    width: 2%;
+    font-size: 10px;
+    justify-content: center;
+}

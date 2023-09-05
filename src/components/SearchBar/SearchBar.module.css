@@ -1,0 +1,45 @@
+.contenedor {
+    background-color: rgba(121, 51, 250, 0.685);
+    padding: 10px;
+    border-bottom: 2px solid rgba(75, 53, 117, 0.973);
+    height: 60px;
+    
+}
+
+.search {
+    margin-left: 40%;
+    margin-top: -3.5%;
+   
+}
+
+.searchBar {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgba(138, 245, 88, 0.911);
+    margin-right: 5px;
+   
+  
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgba(138, 245, 88, 0.911);
+    background-color: rgb(166, 243, 130);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgb(121, 51, 250);
+    box-shadow: 0 0 10px  rgb(121, 51, 250), 0 0 40px rgb(121, 51, 250), 0 0 80px  rgb(121, 51, 250) ;
+    transition-delay: 0.4s;
+}
+
+.img {
+    width: 20%;
+    height: 100%;
+}
