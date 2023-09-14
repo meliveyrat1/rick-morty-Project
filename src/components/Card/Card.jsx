@@ -1,15 +1,16 @@
-import style from "./Card.module.css"
+import style from "./Card.module.css";
+import { Link } from "react-router-dom";
 
-export default function Card({name, image, status, gender, onClose}) {
+export default function Card({id,name, image, status, gender, onClose}) {
    return (
       <div className={style.contenedor}>
          <button className={style.btn} onClick={onClose}>X</button>
+         <Link to={`/detail/${id}`}>
          <h2 className={style.name}>{name}</h2>
+         </Link>
          <img  className={style.img}src={image} alt='' /> 
-         <div className={style.text}>
-         <h2 >{status}</h2>
-         <h2 >{gender}</h2>
-         </div>
+         
+         
       </div>
    );
 }

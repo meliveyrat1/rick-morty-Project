@@ -14,6 +14,8 @@ export default function Cards({characters, onClose}) {
            gender={gender}
            origin={origin.name}
            image={image}
+           id={id}/* aqui era necesario poner el id xq se rompia todo cuando ponia el detal de cada card
+           porque el padre (cards) le debe pasar al hijo el id */
            onClose={()=>onClose(id)}
          />
       })

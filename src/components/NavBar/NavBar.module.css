@@ -1,0 +1,59 @@
+
+
+.contenedor {
+    background-color: rgba(121, 51, 250, 0.685);
+    padding: 10px;
+    border-bottom: 2px solid rgba(75, 53, 117, 0.973);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+} 
+
+
+.button1 {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgba(138, 245, 88, 0.911);
+    background-color: rgb(166, 243, 130);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    margin-right: -10%;
+    margin-top: 20%;
+}
+
+.button1:hover {
+    background-color: rgb(121, 51, 250);
+    box-shadow: 0 0 10px  rgb(121, 51, 250), 0 0 40px rgb(121, 51, 250), 0 0 80px  rgb(121, 51, 250) ;
+    transition-delay: 0.4s;
+}
+
+.button2 {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgba(138, 245, 88, 0.911);
+    background-color: rgb(166, 243, 130);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    margin-left: -120%;
+}
+
+.button2:hover {
+    background-color: rgb(121, 51, 250);
+    box-shadow: 0 0 10px  rgb(121, 51, 250), 0 0 40px rgb(121, 51, 250), 0 0 80px  rgb(121, 51, 250) ;
+    transition-delay: 0.4s;
+}

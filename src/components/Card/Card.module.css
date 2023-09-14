@@ -26,14 +26,11 @@
     width: 90%;
     height: 100%;
     border: 1px solid rgba(138, 245, 88, 0.911);
+    margin-left: 5%;
+    
 }
 
-.text {
-    display: flex;
-    justify-content: space-around;
-    font-size: 12px;
-  
-}
+
 
 .name {
     background-color: rgba(236, 149, 98, 0.897);
@@ -41,6 +38,7 @@
     font-size: 20px;
     width: 90%;
     margin-left: 13px;
+    text-align: center;
     
 }
 

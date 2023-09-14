@@ -1,0 +1,77 @@
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(236, 149, 98, 0.897);
+    color: black;
+    
+}
+
+.contImg {
+    background-color: rgba(14, 13, 13, 0.877);
+    color: white;
+    width: 20%;
+    height: 350px;
+    padding: 2%;
+    gap: 20%;
+    border-radius: 5px;
+    border: 3px solid rgba(138, 245, 88, 0.911);
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20%;
+    
+}
+
+.img {
+    width: 80%;
+    height: 300px;
+    border: 1px solid rgba(138, 245, 88, 0.911);
+    margin-left: 10%;
+}
+
+.contInfo {
+    background-color: rgba(14, 13, 13, 0.877);
+    color: white;
+    width: 25%;
+    height: 20%;
+    padding: 1%;
+    gap: 20%;
+    border-radius: 5px;
+    border: 3px solid rgba(138, 245, 88, 0.911);
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 20%;
+   
+}
+
+h4{
+    text-align: center;
+    text-decoration:underline ;
+    color:rgba(236, 149, 98, 0.897) ;
+}
+
+p{
+    text-align: center;
+}
+
+.btn {
+    border-radius: 2px;
+    border: 2px solid rgba(138, 245, 88, 0.911);
+    background-color: rgb(166, 243, 130);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    
+}
+
+.btn:hover {
+    background-color: rgb(121, 51, 250);
+    box-shadow: 0 0 10px  rgb(121, 51, 250), 0 0 40px rgb(121, 51, 250), 0 0 80px  rgb(121, 51, 250) ;
+    transition-delay: 0.4s;
+}

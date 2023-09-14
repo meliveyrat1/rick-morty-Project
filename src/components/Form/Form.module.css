@@ -1,0 +1,56 @@
+.contenedor {
+    margin-left: 40%;
+    background-color: rgba(14, 13, 13, 0.877);
+    color: white;
+    width: 20%;
+    height: 400px;
+    margin-top: 5%;
+    padding: 2%;
+    gap: 20%;
+    border-radius: 5px;
+    border: 1px solid rgba(138, 245, 88, 0.911);
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px  rgba(138, 245, 88, 0.692)
+}
+.contenedor:hover {
+    color: white;
+    background:  rgba(7, 7, 7, 0.76);
+  } 
+
+.form {
+    display: grid;
+    color: white;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.error{
+    color:red;
+    font-size: 11px;
+  }
+
+.img {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.btn {
+    
+    border: 2px solid rgba(138, 245, 88, 0.911);
+    background-color: rgb(166, 243, 130);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 10%;
+    
+}
+
+.btn:hover {
+    background-color: rgb(121, 51, 250);
+    box-shadow: 0 0 10px  rgb(121, 51, 250), 0 0 40px rgb(121, 51, 250), 0 0 80px  rgb(121, 51, 250) ;
+    transition-delay: 0.4s;
+}
